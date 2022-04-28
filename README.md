@@ -2,7 +2,7 @@
 
 Generates images combining other png files. 
 
-To run yu need to create the folder `img` and inside that directory place  `background`, `extra` and `main`. The last 3 directories must contain the images to merge. Run the function `genera_imagenes()` to generate 10 images. Runs are deterministic because we set the seed of the rng. Output will create 2 folders, one containing the images and the second containing the metadata of each image. 
+To run you need to create the folder `img` and inside that directory place  `background`, `extra` and `main` directories. The last 3 directories must contain the images to merge. Run the function `genera_imagenes()` to generate 10 images. Runs are deterministic because we set the seed of the rng. Output will create 2 folders, one containing the images and the second containing the metadata of each image. 
 
 ## genera_imagenes(num = 10, rng_seed = 1)
 
